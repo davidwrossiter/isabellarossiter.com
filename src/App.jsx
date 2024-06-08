@@ -1,7 +1,7 @@
 function App() {
   return (
     <div className="font-redditMono p-8 text-sm font-semibold">
-      <h1 className="text-3xl">hi, i'm david 👋</h1>
+      <h1 className="text-3xl">hi, i'm isabella 👋</h1>
       <p className="pt-3 font-medium">
         i'm currently building an awesome company with awesome people.
       </p>
@@ -12,14 +12,6 @@ function App() {
           target="_blank"
         >
           twitter
-        </a>{" "}
-        /{" "}
-        <a
-          href="https://github.com/davidwrossiter?tab=overview&from=2024-06-01&to=2024-06-08"
-          className="underline text-blue-700"
-          target="_blank"
-        >
-          github
         </a>{" "}
         /{" "}
         <a
@@ -39,24 +31,6 @@ function App() {
       </div>
 
       <div className="mt-6">
-        <p href="#" className="font-bold text-base">
-          auth messiah
-        </p>
-        <p className="pt-1">
-          <a href="#" className="underline text-blue-700" target="_blank">
-            github repo
-          </a>{" "}
-        </p>
-        <p className="max-w-[500px] mt-3 font-[350]">
-          this is an open source project that i created with my co-founder joey.
-          we were struggling to find a good way to roll out auth in our apps, so
-          we decided to create an open source auth system that anyone can fork.
-          all you need to do is change the database connections and API keys,
-          link the forked repo to a cloudflare worker and its done.
-        </p>
-      </div>
-
-      <div className="mt-6">
         <p className="font-bold text-base">chapter one</p>
         <p className="pt-1">
           <a href="#" className="underline text-blue-700" target="_blank">
@@ -64,12 +38,8 @@ function App() {
           </a>{" "}
           /{" "}
           <a href="#" className="underline text-blue-700" target="_blank">
-            github for client
+            figma file
           </a>{" "}
-          /{" "}
-          <a href="#" className="underline text-blue-700" target="_blank">
-            github for server
-          </a>
         </p>
         <p className="max-w-[500px] mt-3 font-[350]">
           enter the job that you are trying to get, upload your resume/cv and
@@ -79,27 +49,43 @@ function App() {
       </div>
 
       <div className="mt-6">
-        <p className="font-bold text-base">orin design co.</p>
+        <p className="font-bold text-base">davi beats</p>
         <p className="pt-1">
-          <a
-            href="https://orindesign.co/"
-            className="underline text-blue-700"
-            target="_blank"
-          >
-            live project
-          </a>{" "}
-          /{" "}
           <a
             href="https://github.com/davidwrossiter/orin"
             className="underline text-blue-700"
             target="_blank"
           >
-            github for client
+            figma file
           </a>{" "}
         </p>
         <p className="max-w-[500px] mt-3 font-[350]">
-          orin design is my dad's company, i created the website for him in
-          react, and integrated it with stripe so that he can accept payments.
+          i designed this website for my{" "}
+          <a
+            href="https://rossiter.dev"
+            target="_blank"
+            className="underline text-blue-700"
+          >
+            brother
+          </a>{" "}
+          who makes music. it is a platform that you can buy instrumental beats
+          from
+        </p>
+      </div>
+
+      <div className="mt-6">
+        <p className="font-bold text-base">doberman boxing</p>
+        <p className="pt-1">
+          <a
+            href="https://github.com/davidwrossiter/orin"
+            className="underline text-blue-700"
+            target="_blank"
+          >
+            figma file
+          </a>{" "}
+        </p>
+        <p className="max-w-[500px] mt-3 font-[350]">
+          this is a proof of concept website i made for a boxing gym.
         </p>
       </div>
     </div>
