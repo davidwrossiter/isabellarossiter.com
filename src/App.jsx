@@ -49,10 +49,26 @@ function App() {
       </div>
 
       <div className="mt-6">
+        <p className="font-bold text-base">UI library demo</p>
+        <p className="pt-1">
+          <a
+            href="https://www.figma.com/design/hlQhHlpgvd04wuOGGWOnxg/UI-Library-Demo?node-id=0-1&t=kzHyZQztBVB9WPtD-1"
+            className="underline text-blue-700"
+            target="_blank"
+          >
+            figma file
+          </a>{" "}
+        </p>
+        <p className="max-w-[500px] mt-3 font-[350]">
+          This is a demo website for a UI library.
+        </p>
+      </div>
+
+      <div className="mt-6">
         <p className="font-bold text-base">davi beats</p>
         <p className="pt-1">
           <a
-            href="https://github.com/davidwrossiter/orin"
+            href="https://www.figma.com/design/kH2jNY9wzxA8ynFytiwtb0/Davi-Beats?node-id=0-1&t=JDtVrbmz6bUQHZD9-1"
             className="underline text-blue-700"
             target="_blank"
           >
@@ -69,23 +85,7 @@ function App() {
             brother
           </a>{" "}
           who makes music. it is a platform that you can buy instrumental beats
-          from
-        </p>
-      </div>
-
-      <div className="mt-6">
-        <p className="font-bold text-base">doberman boxing</p>
-        <p className="pt-1">
-          <a
-            href="https://github.com/davidwrossiter/orin"
-            className="underline text-blue-700"
-            target="_blank"
-          >
-            figma file
-          </a>{" "}
-        </p>
-        <p className="max-w-[500px] mt-3 font-[350]">
-          this is a proof of concept website i made for a boxing gym.
+          from.
         </p>
       </div>
     </div>
